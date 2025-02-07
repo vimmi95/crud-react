@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name" : "Vimmi",
+        "email" : "vimmifrancis@gmail.com",
+        "phone" : "1234567891"
+    },
+    {
+        "id": 1,
+        "name" : "Vimmi",
+        "email" : "vimmifrancis@gmail.com",
+        "phone" : "1234567891"
+    },
+      {
+        "id": 2,
+        "name" : "Leni",
+        "email" : "leniporinchu@gmail.com",
+        "phone" : "987456123"
+    },
+    {
+        "id": 3,
+        "name" : "Merlin",
+        "email" : "merlina@gmail.com",
+        "phone" : "9512364578"
+    },
+    {
+        "id": 4,
+        "name" : "Vinni",
+        "email" : "vinnijoy@gmail.com",
+        "phone" : "321456987"
+    }
+]
