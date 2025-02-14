@@ -1,32 +1,38 @@
 [
     {
         "id": 1,
-        "name" : "Vimmi",
+        "name" : "Vimmi Francis",
         "email" : "vimmifrancis@gmail.com",
         "phone" : "1234567891"
     },
     {
-        "id": 1,
-        "name" : "Vimmi",
-        "email" : "vimmifrancis@gmail.com",
-        "phone" : "1234567891"
+        "id": 2,
+        "name" : "Leni Benson",
+        "email" : "leniben@gmail.com",
+        "phone" : "9874563215"
     },
       {
-        "id": 2,
-        "name" : "Leni",
-        "email" : "leniporinchu@gmail.com",
-        "phone" : "987456123"
+        "id": 3,
+        "name" : "Shreya Bhoir",
+        "email" : "shreyabhoir@gmail.com",
+        "phone" : "963214587"
     },
     {
-        "id": 3,
-        "name" : "Merlin",
+        "id": 4,
+        "name" : "Merlin Antony",
         "email" : "merlina@gmail.com",
         "phone" : "9512364578"
     },
     {
-        "id": 4,
-        "name" : "Vinni",
-        "email" : "vinnijoy@gmail.com",
-        "phone" : "321456987"
+        "id": 5,
+        "name" : "Reshmi Echil",
+        "email" : "reshmiechil@gmail.com",
+        "phone" : "647852369"
+    },
+    {
+        "id": 6,
+        "name" : "Betsy Josu",
+        "email" : "josubetsy@gmail.com",
+        "phone" : "94785412367"
     }
 ]
