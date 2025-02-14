@@ -7,7 +7,7 @@ function Crud() {
     return (
         <div className="tableWrap">
             <div>
-            <Addmember/>
+            <Addmember setData={setData}/>
             <table>
                 <thead>
                     <th>Name</th>
@@ -36,10 +36,24 @@ function Crud() {
     )
 }
 
-function Addmember(){
+function Addmember({setData}){
+    
+    function hanldeValues(event){
+        event.preventDefault();
+        const name = event.target.elements.name.value;
+        const email = event.target.elements.email.value;
+        const phone = event.target.elements.phone.value;
+        const newData = {
+            id: Math.floor(Math.random() * 900) + 100, // Create random number of 3 digits
+            name,
+            email,
+            phone,
+        }
+        setData(prevData => prevData.concat(newData))
+    }
 
     return(
-        <form className="addForm" >
+        <form className="addForm" onSubmit={hanldeValues} >
             <input type='text' name="name" placeholder='Enter Name'/>
             <input type='text' name="email" placeholder='Enter Email'/>
             <input type='text' name="phone" placeholder='Enter Phone Number'/>
